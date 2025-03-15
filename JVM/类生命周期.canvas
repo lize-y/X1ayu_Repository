@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"6d2cf244111c416f","x":80,"y":-80,"width":250,"height":60,"type":"text","text":"验证**Verification**"},
+		{"id":"5131e0fcc357a786","x":-260,"y":-80,"width":250,"height":60,"type":"text","text":"加载**Loading**"},
+		{"id":"8346a98b5a83fcaf","x":420,"y":-80,"width":250,"height":60,"type":"text","text":"准备**Preparation**"},
+		{"id":"6cd6dbc47a274bc0","x":760,"y":-80,"width":250,"height":60,"type":"text","text":"解析**Resolution**"},
+		{"id":"4874d87e04267542","x":760,"y":80,"width":250,"height":60,"type":"text","text":"初始化**Initialization**"},
+		{"id":"e12d1dc9473b5dc3","x":420,"y":80,"width":250,"height":60,"type":"text","text":"使用**Using**"},
+		{"id":"a5eb9873b9d0e0c6","x":80,"y":80,"width":250,"height":60,"type":"text","text":"卸载**Unloading**"}
+	],
+	"edges":[
+		{"id":"3452c39605a84e10","fromNode":"5131e0fcc357a786","fromSide":"right","toNode":"6d2cf244111c416f","toSide":"left"},
+		{"id":"cb8cff7f7c4d3fdf","fromNode":"6d2cf244111c416f","fromSide":"right","toNode":"8346a98b5a83fcaf","toSide":"left"},
+		{"id":"096286a91f473e75","fromNode":"8346a98b5a83fcaf","fromSide":"right","toNode":"6cd6dbc47a274bc0","toSide":"left"},
+		{"id":"135e7035b397a568","fromNode":"6cd6dbc47a274bc0","fromSide":"bottom","toNode":"4874d87e04267542","toSide":"top"},
+		{"id":"88ac9233e42c57cc","fromNode":"4874d87e04267542","fromSide":"left","toNode":"e12d1dc9473b5dc3","toSide":"right"},
+		{"id":"31c6a2dbf9fc7158","fromNode":"e12d1dc9473b5dc3","fromSide":"left","toNode":"a5eb9873b9d0e0c6","toSide":"right"}
+	]
+}
