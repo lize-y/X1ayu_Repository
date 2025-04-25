@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ae2a458c9a7aa512",
+            "id": "8f3a1dc182467624",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络/TCP.md",
+                "file": "数据分析与挖掘/回归算法的评价指标.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TCP"
+              "title": "回归算法的评价指标"
             }
           }
         ]
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -52,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": " ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +74,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -93,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "锁.md",
+                "file": "数据分析与挖掘/箱线图.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "锁 的反向链接列表"
+              "title": "箱线图 的反向链接列表"
             }
           },
           {
@@ -112,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "锁.md",
+                "file": "数据分析与挖掘/箱线图.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "锁 的出链列表"
+              "title": "箱线图 的出链列表"
             }
           },
           {
@@ -127,7 +129,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "标签"
@@ -139,10 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "锁.md"
+                "file": "数据分析与挖掘/箱线图.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "锁 的大纲"
+              "title": "箱线图 的大纲"
             }
           }
         ]
@@ -162,14 +169,32 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ae2a458c9a7aa512",
+  "active": "06847f35e240be7a",
   "lastOpenFiles": [
-    "image/TCP头部.webp",
+    "数据分析与挖掘/一元线性回归.md",
+    "数据分析与挖掘/回归算法的评价指标.md",
+    "数据分析与挖掘/最小二乘法.md",
+    "Pasted image 20250324101141.png",
+    "数据分析与挖掘/箱线图.md",
+    "并发编程/自旋锁.md",
+    "并发编程/互斥锁 mutex.md",
+    "锁.md",
+    "并发编程/CAS.md",
+    "并发编程",
+    "算法/位运算.md",
+    "线性代数/关系.md",
+    "算法",
+    "线性代数/矩阵.md",
+    "线性代数/向量.md",
+    "数据分析与挖掘/Pandas.md",
+    "线性代数",
+    "image/箱线图.png",
     "网络/TCP.md",
+    "数据分析与挖掘",
+    "image/TCP头部.webp",
     "设计模式/MVC模式.md",
     "设计模式/代理（Proxy）模式.md",
     "设计模式/建造者（Builder）模式.md",
-    "锁.md",
     "Spring",
     "自我介绍.md",
     "redis/持久化.md",
@@ -186,22 +211,8 @@
     "网络/Cookie.md",
     "网络/HTTPS.md",
     "网络",
-    "网络/HTTP.md",
-    "netty.md",
-    "Zookeeper.md",
-    "Iterator.md",
-    "数据结构/Map.md",
-    "数据结构/HashMap.md",
-    "数据结构/LinkedHashMap.md",
-    "数据结构/跳表.md",
     "JVM/类生命周期.canvas",
     "JVM",
-    "设计模式",
-    "Iterable.md",
-    "数据结构/Set.md",
-    "数据结构",
-    "数据结构/LinkedCaseInsensitiveMap.md",
-    "image/MVC模式.png",
-    "image"
+    "image/MVC模式.png"
   ]
 }
